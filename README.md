@@ -1,0 +1,35 @@
+# claude-cad
+
+Text-to-CAD prompts for [Build123d](https://github.com/gumyr/build123d), designed to generate detailed parametric 3D models from natural language descriptions.
+
+Each prompt was written by studying a real-world object and capturing its geometry, dimensions, construction sequence, and material appearance in enough detail for a CAD LLM to reproduce it.
+
+## Prompts
+
+### Speckled Ceramic Mug
+
+![Speckled Ceramic Mug](image_prompts/mug.png)
+
+A stoneware-style coffee mug with a rounded bullet-shaped base, thick rim, and a large loop handle. Modeled as a revolved body with a swept handle.
+
+[Full prompt](build123d_mug_prompt.md)
+
+---
+
+### Red Parts Briefcase / Organizer
+
+![Red Parts Briefcase](image_prompts/generalist_briefcase.png)
+
+A hard-plastic portable organizer briefcase with a hinged lid, grey carry-handle/latch assembly, and a removable 8-bin black internal tray. 42 parts total.
+
+[Full prompt](red_briefcase_cad_prompt.md)
+
+---
+
+### Yellow Ethernet Patch Cable + RJ45 Coupler
+
+![Yellow Ethernet Cable + RJ45 Coupler](image_prompts/RJ45.png)
+
+A yellow Ethernet patch cable with transparent RJ45 male connectors on both ends and a female-to-female inline coupler. 74 named parts including contact pins, shield frames, and latch mechanisms.
+
+[Full prompt](build_123_d_ethernet_cad_prompt.md)
